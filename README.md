@@ -7,26 +7,26 @@
 ## 📁 Структура проекта
 
 api-billing-collections/
-│
-├── collections/
-│   ├── inbound/ - наш API
-│   └── outbound/ - внешние интеграции
-│
-├── tests/
-│   ├── smoke/
-│   ├── integration/
-│   ├── regression/
-│   └── negative/
-│
-├── environments/
-│   ├── dev.template.yml
-│   ├── test.template.yml
-│   ├── uat.template.yml
-│   ├── preprod.template.yml
-│   └── prod.template.yml
-│
-├── .gitignore
-└── opencollection.yml
+
+	collections/
+		inbound/ - наш API
+		outbound/ - внешние интеграции
+
+	tests/
+		smoke/
+		ntegration/
+		regression/
+		negative/
+
+	environments/
+		dev.template.yml
+		test.template.yml
+		uat.template.yml
+		preprod.template.yml
+		prod.template.yml
+
+	.gitignore
+	opencollection.yml
 
 ---
 
@@ -34,7 +34,7 @@ api-billing-collections/
 
 ### 1. Клонировать репозиторий
 
-git clone <repo-url>
+git clone URL
 
 ---
 
@@ -100,7 +100,7 @@ dev.local, test.local и т.д.
 
 Формат:
 
-<method>-<entity>-<action>.yml
+method-entity-action.yml
 
 Примеры:
 
