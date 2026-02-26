@@ -1,0 +1,14 @@
+name: uat
+variables:
+  - name: baseUrl
+    value: ""
+  - name: apiVersion
+    value: ""
+  - name: authToken
+    value: ""
+  - name: username
+    value: ""
+  - name: password
+    value: ""
+  - name: envName
+    value: ""

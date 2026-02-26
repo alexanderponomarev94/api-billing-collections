@@ -1,0 +1,7 @@
+info:
+  name: negative
+  type: folder
+  seq: 4
+
+request:
+  auth: inherit
