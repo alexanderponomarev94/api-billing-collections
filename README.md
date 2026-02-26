@@ -1,6 +1,6 @@
-# API Billing Collections
+# API Collections
 
-Коллекция API тестов (Bruno, YAML) для проекта Billing.
+Шаблон API тестов.
 
 ---
 
@@ -100,10 +100,18 @@ dev.local, test.local и т.д.
 
 Формат:
 
-method-entity-action.yml
+метод-сущность-действие.yml
 
 Примеры:
 
-get-user-by-id.yml  
-post-invoice-create.yml  
-patch-payment-status.yml  
+- get-user-by-id.yml — получить пользователя по идентификатору
+
+- post-invoice-create.yml — создать новый счет
+
+- patch-payment-status.yml — обновить статус платежа
+
+- delete-order-cancel.yml — отменить заказ (удалить)
+
+- get-users-list.yml — получить список пользователей
+
+- put-user-update.yml — полностью обновить данные пользователя  
