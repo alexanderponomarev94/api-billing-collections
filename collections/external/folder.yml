@@ -1,5 +1,5 @@
 info:
-  name: outbound
+  name: external
   type: folder
   seq: 2
 
